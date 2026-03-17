@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tenant Tree Dashboard</title>
+<script src="msal-browser.min.js"></script>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6fa;
+  }
+
+  /* SPA layout: top + bottom */
+  .app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .auth-guard {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #eef4fb 0%, #dfeaf8 100%);
+  }
+
+  .auth-card {
+    width: 100%;
+    max-width: 420px;
+    background: #fff;
+    border-radius: 16px;
+    padding: 32px;
+    box-shadow: 0 18px 40px rgba(43, 137, 237, 0.16);
+    text-align: center;
+  }
+
+  .auth-title {
+    margin: 0 0 12px;
+    font-size: 28px;
+    color: #111;
+  }
+
+  .auth-copy {
+    margin: 0 0 24px;
+    color: #4b5563;
+    line-height: 1.5;
+  }
+
+  .auth-button,
+  .logout-button {
+    border: 0;
+    border-radius: 10px;
+    padding: 12px 18px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .auth-button {
+    width: 100%;
+    color: #fff;
+    background: #2B89ED;
+  }
+
+  .auth-button:hover,
+  .logout-button:hover {
+    filter: brightness(0.96);
+  }
+
+  .auth-error {
+    min-height: 20px;
+    margin-top: 16px;
+    color: #b42318;
+    font-size: 13px;
+  }
+
+  .top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+
+  .page-title {
+    margin: 0;
+    font-size: 24px;
+    color: #111;
+  }
+
+  .auth-user {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .auth-user-name {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1f2937;
+  }
+
+  .logout-button {
+    color: #fff;
+    background: #1f2937;
+  }
+
+  /* TOP SECTION (indicators) */
+  .top-section {
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    z-index: 2;
+  }
+
+  .indicators-row {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    align-items: stretch;
+  }
+
+  .indicator-card {
+    flex: 1 1 180px;
+    min-width: 180px;
+    background: #f8fafc;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+
+  .indicator-title {
+    background: #2B89ED;
+    color: #fff;
+    font-weight: 700;
+    font-size: 13px;
+    padding: 10px 12px;
+    text-align: center;
+    letter-spacing: 0.2px;
+  }
+
+  .indicator-value {
+    padding: 16px 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #111;
+    word-break: break-word;
+  }
+
+  /* BOTTOM SECTION (tree) */
+  .bottom-section {
+    flex: 1 1 auto;
+    padding: 20px 40px 40px 40px;
+    min-height: 0; /* important for scrolling container */
+  }
+
+  .tree-scroll {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  svg {
+    display: block;
+    min-width: 100%;
+  }
+
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .node circle.toggle {
+    fill: #2B89ED;
+    cursor: pointer;
+  }
+
+  .node text {
+    font-size: 13px;
+  }
+
+  .meta {
+    font-size: 12px;
+    fill: #2B89ED;
+  }
+
+  .box {
+    fill: #f8fafc;
+    stroke: #2B89ED;
+    stroke-width: 1.5px;
+    rx: 10;
+  }
+</style>
+</head>
+
+<body>
+<div id="auth-guard" class="auth-guard">
+  <div class="auth-card">
+    <h1 class="auth-title">Tenant Tree Dashboard</h1>
+    <p class="auth-copy">Entre com sua conta Microsoft para acessar o dashboard.</p>
+    <button id="login-button" class="auth-button" type="button">Entrar com Microsoft</button>
+    <div id="auth-error" class="auth-error"></div>
+  </div>
+</div>
+
+<div id="app-shell" class="app" style="display: none;">
+
+  <!-- TOP SECTION -->
+  <div class="top-section">
+    <div class="top-header">
+      <h1 class="page-title">Tenant Tree Dashboard</h1>
+      <div class="auth-user">
+        <span id="auth-username" class="auth-user-name"></span>
+        <button id="logout-button" class="logout-button" type="button">Sair</button>
+      </div>
+    </div>
+
+    <div class="indicators-row">
+      <div class="indicator-card">
+        <div class="indicator-title">Total count of tenants</div>
+        <div class="indicator-value" id="kpi-tenants">-</div>
+      </div>
+
+      <div class="indicator-card">
+        <div class="indicator-title">Total count of sites</div>
+        <div class="indicator-value" id="kpi-sites">-</div>
+      </div>
+
+      <div class="indicator-card">
+        <div class="indicator-title">Total count of buildings</div>
+        <div class="indicator-value" id="kpi-buildings">-</div>
+      </div>
+
+      <div class="indicator-card">
+        <div class="indicator-title">INTRAE predominant version</div>
+        <div class="indicator-value" id="kpi-intrae">-</div>
+      </div>
+
+      <div class="indicator-card">
+        <div class="indicator-title">INTEGRA predominant version</div>
+        <div class="indicator-value" id="kpi-integra">-</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTTOM SECTION -->
+  <div class="bottom-section">
+    <div class="tree-scroll">
+      <svg></svg>
+    </div>
+  </div>
+
+</div>
+
+<script>
+  const msalConfig = {
+    auth: {
+      clientId: "b1438db9-79e6-457a-99fd-66e7ae4fe160",
+      authority: "https://login.microsoftonline.com/81dbb0d4-0d50-4aa5-a35c-04b98c73f3e0",
+      redirectUri: window.location.origin + window.location.pathname,
+      postLogoutRedirectUri: window.location.origin + window.location.pathname
+    },
+    cache: {
+      cacheLocation: "sessionStorage"
+    }
+  };
+
+  const loginRequest = {
+    scopes: ["User.Read"]
+  };
+
+  const msalInstance = new msal.PublicClientApplication(msalConfig);
+  const authGuard = document.getElementById("auth-guard");
+  const appShell = document.getElementById("app-shell");
+  const authError = document.getElementById("auth-error");
+  const loginButton = document.getElementById("login-button");
+  const logoutButton = document.getElementById("logout-button");
+  const authUsername = document.getElementById("auth-username");
+
+  let dashboardInitialized = false;
+
+  loginButton.addEventListener("click", () => {
+    authError.textContent = "";
+    msalInstance.loginRedirect(loginRequest).catch((error) => {
+      console.error("Login redirect error:", error);
+      authError.textContent = "Nao foi possivel iniciar o login com a Microsoft.";
+    });
+  });
+
+  logoutButton.addEventListener("click", () => {
+    const activeAccount = msalInstance.getActiveAccount();
+    msalInstance.logoutRedirect({ account: activeAccount || undefined }).catch((error) => {
+      console.error("Logout redirect error:", error);
+      authError.textContent = "Nao foi possivel finalizar a sessao.";
+    });
+  });
+
+  function getSignedInAccount() {
+    const redirectAccount = msalInstance.getActiveAccount();
+    if (redirectAccount) return redirectAccount;
+
+    const accounts = msalInstance.getAllAccounts();
+    if (!accounts.length) return null;
+
+    msalInstance.setActiveAccount(accounts[0]);
+    return accounts[0];
+  }
+
+  function renderUnauthenticatedState(message = "") {
+    authGuard.style.display = "flex";
+    appShell.style.display = "none";
+    authUsername.textContent = "";
+    authError.textContent = message;
+  }
+
+  function renderAuthenticatedState(account) {
+    authGuard.style.display = "none";
+    appShell.style.display = "flex";
+    authError.textContent = "";
+    authUsername.textContent = account.name || account.username || "Usuario autenticado";
+  }
+
+  async function bootstrapAuth() {
+    try {
+      if (typeof msalInstance.initialize === "function") {
+        await msalInstance.initialize();
+      }
+
+      const redirectResponse = await msalInstance.handleRedirectPromise();
+      const account = redirectResponse?.account || getSignedInAccount();
+
+      if (!account) {
+        renderUnauthenticatedState();
+        return;
+      }
+
+      msalInstance.setActiveAccount(account);
+      renderAuthenticatedState(account);
+
+      if (!dashboardInitialized) {
+        dashboardInitialized = true;
+        initializeDashboard();
+      }
+    } catch (error) {
+      console.error("MSAL bootstrap error:", error);
+      renderUnauthenticatedState("Falha ao validar a autenticacao Microsoft.");
+    }
+  }
+
+  function initializeDashboard() {
+    const svg = d3.select("svg");
+
+    // Camadas: links sempre atrás
+    const linkLayer = svg.append("g");
+    const nodeLayer = svg.append("g");
+
+    // Layout settings (NÃO MEXER)
+    const BASE_X_SPACING = 120;
+    const DEPTH_Y_SPACING = 420;
+    const MARGIN_LEFT = 150;
+    const MARGIN_TOP = 100;
+
+    // Node UI constants (NÃO MEXER)
+    const X_OFFSET = 30;
+    const SITE_BOX_W = 270;
+    const BUILDING_BOX_W = 260;
+
+    // Tenant toggle (NÃO MEXER)
+    const TENANT_TOGGLE_LOCAL_X = X_OFFSET + 220;
+    const TENANT_TOGGLE_LOCAL_Y = 8;
+
+    function isBuilding(d) { return d.data?.type === "building"; }
+    function isSite(d) { return d.data?.type === "site"; }
+    function isCustomer(d) { return d.data?.type === "customer"; }
+
+    // Animation settings (sutil)
+    const ANIM_MS = 220;
+
+    d3.json("aei_tenants_d3.json").then(function(data) {
+
+      // KPIs (top section)
+      document.getElementById("kpi-tenants").textContent =
+        data["Total count of tenants"] ?? "-";
+
+      document.getElementById("kpi-sites").textContent =
+        data["Total count of sites"] ?? "-";
+
+      // aceita "total_buildings" ou "Total count of buildings"
+      document.getElementById("kpi-buildings").textContent =
+        (data["total_buildings"] ?? data["Total count of buildings"] ?? "-");
+
+      document.getElementById("kpi-intrae").textContent =
+        data["INTRAE predominant version"] ?? "-";
+
+      document.getElementById("kpi-integra").textContent =
+        data["INTEGRA predominant version"] ?? "-";
+
+      // ÁRVORE (NÃO MEXER)
+      const root = d3.hierarchy(data);
+
+      // Colapsar inicialmente
+      if (root.children) root.children.forEach(collapse);
+
+      function collapse(d) {
+        if (d.children) {
+          d._children = d.children;
+          d._children.forEach(collapse);
+          d.children = null;
+        }
+      }
+
+      // Primeira renderização: define x0/y0 para animações futuras
+      computeLayout();
+      root.each(d => { d.x0 = d.x; d.y0 = d.y; });
+
+      update(root); // source inicial = root
+
+      function wrapText(textSelection, width) {
+        textSelection.each(function () {
+          const text = d3.select(this);
+          const words = text.text().split(/\s+/).reverse();
+          let word;
+          let line = [];
+          let lineNumber = 0;
+          const lineHeight = 1.2;
+          const y = +text.attr("y");
+
+          let tspan = text.text(null)
+            .append("tspan")
+            .attr("x", text.attr("x"))
+            .attr("y", y);
+
+          while ((word = words.pop())) {
+            line.push(word);
+            tspan.text(line.join(" "));
+            if (tspan.node().getComputedTextLength() > width) {
+              line.pop();
+              tspan.text(line.join(" "));
+              line = [word];
+              tspan = text.append("tspan")
+                .attr("x", text.attr("x"))
+                .attr("y", y)
+                .attr("dy", (++lineNumber * lineHeight) + "em")
+                .text(word);
+            }
+          }
+        });
+      }
+
+      function leafCount(node) {
+        const kids = node.children; // só conta expandido
+        if (!kids || kids.length === 0) {
+          node._leafCount = 1;
+          return 1;
+        }
+        let sum = 0;
+        kids.forEach(k => sum += leafCount(k));
+        node._leafCount = sum;
+        return sum;
+      }
+
+      function layout(node, depth, state) {
+        node.y = depth * DEPTH_Y_SPACING;
+
+        const kids = node.children;
+        if (!kids || kids.length === 0) {
+          node.x = state.cursor;
+          state.cursor += BASE_X_SPACING;
+          return;
+        }
+
+        kids.forEach(k => layout(k, depth + 1, state));
+        node.x = d3.mean(kids, k => k.x);
+      }
+
+      function computeLayout() {
+        leafCount(root);
+        const state = { cursor: 0 };
+        layout(root, 0, state);
+
+        const nodes = root.descendants();
+        const minX = d3.min(nodes, d => d.x);
+        nodes.forEach(d => d.x = d.x - minX);
+
+        const maxX = d3.max(nodes, d => d.x);
+        const maxY = d3.max(nodes, d => d.y);
+
+        const height = maxX + 200;
+        const width = maxY + 700;
+
+        svg.attr("height", height).attr("width", width);
+
+        linkLayer.attr("transform", `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`);
+        nodeLayer.attr("transform", `translate(${MARGIN_LEFT}, ${MARGIN_TOP})`);
+      }
+
+    function getLinkPoints(linkDatum) {
+      const s = linkDatum.source;
+      const t = linkDatum.target;
+
+      let sx = s.y, sy = s.x;
+
+      if (isCustomer(s)) {
+        sx = s.y + TENANT_TOGGLE_LOCAL_X;
+        sy = s.x + TENANT_TOGGLE_LOCAL_Y;
+      } else if (isSite(s)) {
+        sx = s.y + (X_OFFSET + SITE_BOX_W + 25);
+        sy = s.x + 0;
+      }
+
+      let tx = t.y + X_OFFSET;
+      let ty = t.x;
+
+      if (isCustomer(t)) {
+        tx = t.y + X_OFFSET;
+        ty = t.x + TENANT_TOGGLE_LOCAL_Y;
+      }
+
+      return { sx, sy, tx, ty };
+    }
+
+    function linkPath(d) {
+      const { sx, sy, tx, ty } = getLinkPoints(d);
+      const midX = (sx + tx) / 2;
+      return `M${sx},${sy} C${midX},${sy} ${midX},${ty} ${tx},${ty}`;
+    }
+
+    // Para animação: caminho partindo “do source antigo”
+    function linkPathFromSourceOld(d, source) {
+      // start = bolinha do source no lugar antigo (x0/y0)
+      const s = source;
+      let sx = s.y0 ?? s.y, sy = s.x0 ?? s.x;
+
+      if (isCustomer(s)) {
+        sx = (s.y0 ?? s.y) + TENANT_TOGGLE_LOCAL_X;
+        sy = (s.x0 ?? s.x) + TENANT_TOGGLE_LOCAL_Y;
+      } else if (isSite(s)) {
+        sx = (s.y0 ?? s.y) + (X_OFFSET + SITE_BOX_W + 25);
+        sy = (s.x0 ?? s.x) + 0;
+      }
+
+      // end = mesmo ponto (fica “colapsado” no source)
+      const tx = sx;
+      const ty = sy;
+
+      const midX = (sx + tx) / 2;
+      return `M${sx},${sy} C${midX},${sy} ${midX},${ty} ${tx},${ty}`;
+    }
+
+    function update(source) {
+      computeLayout();
+
+      const nodes = root.descendants();
+      const links = root.links();
+
+      const t = svg.transition()
+        .duration(ANIM_MS)
+        .ease(d3.easeCubicOut);
+
+      // LINKS
+      const link = linkLayer.selectAll(".link")
+        .data(links, d => d.target.data.name + d.target.depth);
+
+      // enter: nasce “no source antigo”, vai para o path correto
+      link.enter()
+        .append("path")
+        .attr("class", "link")
+        .attr("d", d => linkPathFromSourceOld(d, source))
+        .merge(link)
+        .transition(t)
+        .attr("d", linkPath);
+
+      // exit: volta para o source atual (efeito sutil)
+      link.exit()
+        .transition(t)
+        .attr("d", d => linkPathFromSourceOld(d, source))
+        .remove();
+
+      // NODES
+      const node = nodeLayer.selectAll(".node")
+        .data(nodes, d => d.data.name + d.depth);
+
+      // enter: começa na posição antiga do source (bem sutil) e vai para a nova
+      const nodeEnter = node.enter()
+        .append("g")
+        .attr("class", "node")
+        .attr("transform", `translate(${source.y0 ?? source.y},${source.x0 ?? source.x})`)
+        .on("click", (event, d) => click(event, d));
+
+      nodeEnter.each(function(d) {
+        const group = d3.select(this);
+        const xOffset = X_OFFSET;
+
+        const hasToggle = (d.data.type !== "building") && (d._children || d.children);
+
+        if (d.data.type === "customer") {
+          group.append("text")
+            .attr("x", xOffset)
+            .attr("y", -10)
+            .style("font-weight", 700)
+            .text(d.data.name);
+
+          group.append("text")
+            .attr("x", xOffset)
+            .attr("y", 8)
+            .attr("class", "meta")
+            .text("Total sites: " + (d.data.total_sites ?? 0));
+
+          group.append("text")
+            .attr("x", xOffset)
+            .attr("y", 24)
+            .attr("class", "meta")
+            .text("Total buildings: " + (d.data.total_buildings ?? 0));
+
+          const toggleX = TENANT_TOGGLE_LOCAL_X;
+          const toggleY = TENANT_TOGGLE_LOCAL_Y;
+
+          group.append("circle")
+            .attr("class", "toggle")
+            .attr("r", 12)
+            .attr("cx", toggleX)
+            .attr("cy", toggleY);
+
+          group.append("text")
+            .attr("x", toggleX)
+            .attr("y", toggleY + 4)
+            .attr("text-anchor", "middle")
+            .style("fill", "#fff")
+            .style("font-weight", 700)
+            .text(hasToggle ? (d.children ? "−" : "+") : "");
+        }
+
+        if (d.data.type === "site") {
+          const width = SITE_BOX_W;
+          const padding = 12;
+          const contentWidth = width - padding * 2;
+
+          const lines = [
+            { text: d.data.name, bold: true, color: "#000" },
+            { text: "Total buildings: " + (d.data.total_buildings ?? 0), bold: false, color: "#2B89ED" },
+            { text: d.data.contact ?? "", bold: false, color: "#000" }
+          ].filter(l => l.text);
+
+          let totalHeight = padding;
+          const measured = [];
+
+          lines.forEach(line => {
+            const tt = group.append("text")
+              .attr("x", xOffset + padding)
+              .attr("y", 0)
+              .style("font-weight", line.bold ? 700 : 400)
+              .style("fill", line.color)
+              .text(line.text);
+
+            wrapText(tt, contentWidth);
+            const bbox = tt.node().getBBox();
+            tt.remove();
+
+            totalHeight += bbox.height + 6;
+            measured.push(line);
+          });
+
+          totalHeight += padding;
+
+          group.append("rect")
+            .attr("class", "box")
+            .attr("x", xOffset)
+            .attr("y", -totalHeight / 2)
+            .attr("width", width)
+            .attr("height", totalHeight);
+
+          let currentY = -totalHeight / 2 + padding;
+
+          measured.forEach((line) => {
+            const tt = group.append("text")
+              .attr("x", xOffset + padding)
+              .attr("y", currentY + 12)
+              .style("font-weight", line.bold ? 700 : 400)
+              .style("fill", line.color)
+              .text(line.text);
+
+            wrapText(tt, contentWidth);
+            const bbox = tt.node().getBBox();
+            currentY += bbox.height + 6;
+          });
+
+          const toggleX = xOffset + width + 25;
+
+          group.append("circle")
+            .attr("class", "toggle")
+            .attr("r", 12)
+            .attr("cx", toggleX)
+            .attr("cy", 0);
+
+          group.append("text")
+            .attr("x", toggleX)
+            .attr("y", 4)
+            .attr("text-anchor", "middle")
+            .style("fill", "#fff")
+            .style("font-weight", 700)
+            .text(hasToggle ? (d.children ? "−" : "+") : "");
+        }
+
+        if (d.data.type === "building") {
+          const width = BUILDING_BOX_W;
+          const padding = 12;
+          const contentWidth = width - padding * 2;
+
+          const lines = [
+            { text: d.data.name, bold: true, color: "#000" },
+            { text: d.data.intrae_version ?? "", bold: false, color: "#000" },
+            { text: d.data.integra_version ?? "", bold: false, color: "#000" }
+          ].filter(l => l.text);
+
+          let totalHeight = padding;
+          const measured = [];
+
+          lines.forEach(line => {
+            const tt = group.append("text")
+              .attr("x", xOffset + padding)
+              .attr("y", 0)
+              .style("font-weight", line.bold ? 700 : 400)
+              .style("fill", line.color)
+              .text(line.text);
+
+            wrapText(tt, contentWidth);
+            const bbox = tt.node().getBBox();
+            tt.remove();
+
+            totalHeight += bbox.height + 6;
+            measured.push(line);
+          });
+
+          totalHeight += padding;
+
+          group.append("rect")
+            .attr("class", "box")
+            .attr("x", xOffset)
+            .attr("y", -totalHeight / 2)
+            .attr("width", width)
+            .attr("height", totalHeight);
+
+          let currentY = -totalHeight / 2 + padding;
+
+          measured.forEach(line => {
+            const tt = group.append("text")
+              .attr("x", xOffset + padding)
+              .attr("y", currentY + 12)
+              .style("font-weight", line.bold ? 700 : 400)
+              .style("fill", line.color)
+              .text(line.text);
+
+            wrapText(tt, contentWidth);
+            const bbox = tt.node().getBBox();
+            currentY += bbox.height + 6;
+          });
+        }
+      });
+
+      // UPDATE + ENTER: anima até o novo lugar
+      node.merge(nodeEnter)
+        .transition(t)
+        .attr("transform", d => `translate(${d.y},${d.x})`);
+
+      // EXIT: anima de volta para o source e remove
+      node.exit()
+        .transition(t)
+        .attr("transform", `translate(${source.y},${source.x})`)
+        .remove();
+
+      // Atualizar símbolos +/− (sem mexer nos textos de conteúdo)
+      nodeLayer.selectAll(".node").each(function(d) {
+        const isToggleNode = (d.data.type !== "building") && (d._children || d.children);
+        const symbol = isToggleNode ? (d.children ? "−" : "+") : "";
+
+        d3.select(this).selectAll("text")
+          .filter(function() {
+            const fill = (d3.select(this).style("fill") || "").toLowerCase();
+            return fill === "rgb(255, 255, 255)" || fill === "#fff" || fill === "white";
+          })
+          .text(symbol);
+      });
+
+      // Guarda posições atuais para a próxima animação
+      root.each(d => { d.x0 = d.x; d.y0 = d.y; });
+    }
+
+    function click(event, d) {
+      if (d.data.type === "building") return;
+
+      if (d.children) {
+        d._children = d.children;
+        d.children = null;
+      } else {
+        d.children = d._children;
+        d._children = null;
+      }
+      update(d); // source = nó clicado (melhor efeito)
+    }
+    }).catch(function(error) {
+      console.error("Error loading tenant data:", error);
+      authError.textContent = "Falha ao carregar os dados do dashboard.";
+    });
+  }
+
+  bootstrapAuth();
+</script>
+
+</body>
+</html>

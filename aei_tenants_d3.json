@@ -1,0 +1,4588 @@
+{
+  "name": "AEI Tenants",
+  "type": "root",
+  "Total count of tenants": 13,
+  "Total count of sites": 97,
+  "total_buildings": 696,
+  "INTRAE predominant version": "INTRAE 3.55",
+  "INTEGRA predominant version": "INTEGRANV 25-125.2",
+  "children": [
+    {
+      "name": "ROSE ACRES",
+      "type": "customer",
+      "total_sites": 16,
+      "total_buildings": 168,
+      "children": [
+        {
+          "name": "COUNTY LINE",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV HOUSE 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV HOUSE 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV HOUSE 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV HOUSE 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV HOUSE 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV HOUSE 24-025",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": "Donny, +17657871086"
+        },
+        {
+          "name": "DESERT VALLEY",
+          "type": "site",
+          "total_buildings": 14,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-68",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Jose Rodriguez, jrodriguez@roseacre.com, +18056307044"
+        },
+        {
+          "name": "GERMANTOWN",
+          "type": "site",
+          "total_buildings": 13,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            }
+          ],
+          "contact": "Jerry Burton, jburton@roseacre.com, +17655437423"
+        },
+        {
+          "name": "GUTHRIE CENTER",
+          "type": "site",
+          "total_buildings": 15,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.54"
+            }
+          ],
+          "contact": "Kris Randol, krandol@roseacre.com, +16413288293, +15152493895"
+        },
+        {
+          "name": "JASPER",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "HOUSES",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "JENN ACRES",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Ryan Simmermeyer, rsimmermeyer@roseacre.com,+15134327467"
+        },
+        {
+          "name": "JOHNSON COUNTY",
+          "type": "site",
+          "total_buildings": 8,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRA 84-22"
+            }
+          ],
+          "contact": "Robert Cox, rcox@roseacre.com, +16603510753"
+        },
+        {
+          "name": "LINCOLN COUNTY",
+          "type": "site",
+          "total_buildings": 12,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            }
+          ],
+          "contact": "Jerry Burton, jburton@roseacre.com, +17655437423"
+        },
+        {
+          "name": "LONE CACTUS",
+          "type": "site",
+          "total_buildings": 13,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.50"
+            }
+          ],
+          "contact": "Joey Martin, +19288514225"
+        },
+        {
+          "name": "NEWTON COUNTY",
+          "type": "site",
+          "total_buildings": 10,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": "Andy Jackson, akeck@roseacre.com, +12602421222"
+        },
+        {
+          "name": "OCONEE",
+          "type": "site",
+          "total_buildings": 15,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Jerry Burton, jburton@roseacre.com, +17655437423"
+        },
+        {
+          "name": "PULASKI",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20 23-283",
+              "intrae_version": "INTRATOUCH 3.53"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20 23-283",
+              "intrae_version": "INTRATOUCH 3.53"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRAV20 23-283",
+              "intrae_version": "INTRATOUCH 3.53"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRAV20 23-283",
+              "intrae_version": "INTRATOUCH 3.53"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRAV20 23-283",
+              "intrae_version": "INTRATOUCH 3.53"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRAV20 23-283",
+              "intrae_version": "INTRATOUCH 3.53"
+            }
+          ],
+          "contact": "Page, +12193352081"
+        },
+        {
+          "name": "STUART",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "VILLA ROSE",
+          "type": "site",
+          "total_buildings": 12,
+          "children": [
+            {
+              "name": "LAYER 1",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 10",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 2",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 3",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 4",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 5",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 6",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 7",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 8",
+              "type": "building"
+            },
+            {
+              "name": "LAYER 9",
+              "type": "building"
+            },
+            {
+              "name": "PULLET 1",
+              "type": "building"
+            },
+            {
+              "name": "PULLET 2",
+              "type": "building"
+            }
+          ],
+          "contact": "Steve Curry, scurry@roseacre.com, steve@sunrisefarms.us, +18125253545"
+        },
+        {
+          "name": "WHITE COUNTY",
+          "type": "site",
+          "total_buildings": 14,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.66"
+            }
+          ],
+          "contact": "Elijah, +12192816681"
+        },
+        {
+          "name": "WINTERSET",
+          "type": "site",
+          "total_buildings": 12,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRA V20D 24-025"
+            }
+          ],
+          "contact": "Garret, +15154685038"
+        }
+      ]
+    },
+    {
+      "name": "GEMPERLE",
+      "type": "customer",
+      "total_sites": 14,
+      "total_buildings": 87,
+      "children": [
+        {
+          "name": "AUGUST RANCH",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building"
+            }
+          ],
+          "contact": "Mike Gemperle, mgemperle@gemperle.com, +12096672651"
+        },
+        {
+          "name": "AZTEC (VALLEY FRESH)",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Spencer Gemperle, spgemperle@gemperle.com, +12095855207"
+        },
+        {
+          "name": "BARNHART",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Mike Gemperle, mgemperle@gemperle.com, +12096672651"
+        },
+        {
+          "name": "BRADBURY",
+          "type": "site",
+          "total_buildings": 7,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Mike Gemperle, mgemperle@gemperle.com, +12096672651"
+        },
+        {
+          "name": "CHANNING",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-086",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-086",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-086",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-086",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-086",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-086",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Mike Gemperle, mgemperle@gemperle.com, +12096672651"
+        },
+        {
+          "name": "GFF HUGHSON",
+          "type": "site",
+          "total_buildings": 3,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.64"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.64"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.64"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "GRIFFITH PULLET",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 23-212",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Mike Gemperle, mgemperle@gemperle.com, +12096672651"
+        },
+        {
+          "name": "HARDING",
+          "type": "site",
+          "total_buildings": 8,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            }
+          ],
+          "contact": "Spencer Gemperle, spgemperle@gemperle.com, +12095855207"
+        },
+        {
+          "name": "MANNING",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 258-21"
+            }
+          ],
+          "contact": "Spencer Gemperle, spgemperle@gemperle.com, +12095855207"
+        },
+        {
+          "name": "NATIONAL-LIND LAYERS",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-120"
+            }
+          ],
+          "contact": "Mike Gemperle, mgemperle@gemperle.com, +12096672651"
+        },
+        {
+          "name": "NATIONAL-LIND PULLETS",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            }
+          ],
+          "contact": "Spencer Gemperle, spgemperle@gemperle.com, +12095855207"
+        },
+        {
+          "name": "PLANKINTON SD",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Mike Gemperle, mgemperle@gemperle.com, +12096672651"
+        },
+        {
+          "name": "SCHENDEL RANCH",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building"
+            }
+          ],
+          "contact": "Spencer Gemperle, spgemperle@gemperle.com, +12095855207"
+        },
+        {
+          "name": "SKYLANE",
+          "type": "site",
+          "total_buildings": 9,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.57"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 72-23",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Spencer Gemperle, spgemperle@gemperle.com, +12095855207"
+        }
+      ]
+    },
+    {
+      "name": "TRILLIUM",
+      "type": "customer",
+      "total_sites": 11,
+      "total_buildings": 71,
+      "children": [
+        {
+          "name": "BREEDER LAYERS",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "BREEDER PULLET",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "CAGE FREE LAYERS",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "CAGE FREE PULLETS",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "LAYER SITE 1 NEW",
+          "type": "site",
+          "total_buildings": 16,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building"
+            },
+            {
+              "name": "House 15 (13A)",
+              "type": "building"
+            },
+            {
+              "name": "House 16 (14B)",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "LAYER SITE 3",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "LAYER SITE 3",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "LAYER SITE 4 NEW",
+          "type": "site",
+          "total_buildings": 17,
+          "children": [
+            {
+              "name": "HOUSE 10 (52)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 11 (53)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 12 (54)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 13 (55)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 14 (56)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 15 (55A)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 16 (56B)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2 (44)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 3 (45)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 4 (46)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 5 (47)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 6 (48)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 7 (49)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 8 (50)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 9 (51)",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "PULLET SITE 1",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "PULLET SITE 2",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "PULLET SITE 3",
+          "type": "site",
+          "total_buildings": 7,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 331-17",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 331-17",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 331-17",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 331-17",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 331-17",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 331-17",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 331-17",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        },
+        {
+          "name": "PULLET SITE 4",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            }
+          ],
+          "contact": "Toby Tyler, +16147456835"
+        }
+      ]
+    },
+    {
+      "name": "SUNRISE",
+      "type": "customer",
+      "total_sites": 14,
+      "total_buildings": 62,
+      "children": [
+        {
+          "name": "ARCHER",
+          "type": "site",
+          "total_buildings": 3,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "FARM 1",
+          "type": "site",
+          "total_buildings": 8,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            }
+          ],
+          "contact": "Brandon Baumhover, bbaumhover@sunrisefarms.us, +17122103121"
+        },
+        {
+          "name": "FARM 2",
+          "type": "site",
+          "total_buildings": 7,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTERAV20D 19-23"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTERAV20D 19-23"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTERAV20D 19-23"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTERAV20D 19-23"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTERAV20D 19-23"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTERAV20D 19-23"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTERAV20D 19-23"
+            }
+          ],
+          "contact": "Brandon Baumhover, bbaumhover@sunrisefarms.us, +17122103121"
+        },
+        {
+          "name": "FARM 3",
+          "type": "site",
+          "total_buildings": 8,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23"
+            }
+          ],
+          "contact": "Brandon Baumhover, bbaumhover@sunrisefarms.us, +17122103121"
+        },
+        {
+          "name": "FARM 4",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Brandon Baumhover, bbaumhover@sunrisefarms.us, +17122103121"
+        },
+        {
+          "name": "FARM 5",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025 BROKER",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025 BROKER",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025 BROKER",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025 BROKER",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025 BROKER",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025 BROKER",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": "Brandon Baumhover, bbaumhover@sunrisefarms.us, +17122103121"
+        },
+        {
+          "name": "FEEDMILL",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "FEEDMILL",
+              "type": "building",
+              "integra_version": "INTEGRA 19-23"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "PULLET 1",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": "Adrian, +17124619024"
+        },
+        {
+          "name": "PULLET 2",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            }
+          ],
+          "contact": "MJ, +17063581263"
+        },
+        {
+          "name": "PULLET 3",
+          "type": "site",
+          "total_buildings": 3,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20 331-21"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20 331-21"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRAV20 331-21"
+            }
+          ],
+          "contact": "MJ, +17063581263"
+        },
+        {
+          "name": "PULLET 4",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "MJ, +17063581263"
+        },
+        {
+          "name": "PULLET 5",
+          "type": "site",
+          "total_buildings": 4,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": "MJ, +17063581263"
+        },
+        {
+          "name": "PULLET 7",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "MJ, +17063581263"
+        },
+        {
+          "name": "SHELDON",
+          "type": "site",
+          "total_buildings": 9,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "PROCESSING 1",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            },
+            {
+              "name": "PROCESSING 2",
+              "type": "building",
+              "integra_version": "INTEGRA 25-051"
+            }
+          ],
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "name": "CAL-MAINE",
+      "type": "customer",
+      "total_sites": 7,
+      "total_buildings": 57,
+      "children": [
+        {
+          "name": "CHASE LAYERS",
+          "type": "site",
+          "total_buildings": 13,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            }
+          ],
+          "contact": "Jason, +16202048058"
+        },
+        {
+          "name": "CHASE PULLETS",
+          "type": "site",
+          "total_buildings": 3,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "GUTHRIE LAYER 1",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            }
+          ],
+          "contact": "Jason, +16202048058"
+        },
+        {
+          "name": "GUTHRIE LAYER 2",
+          "type": "site",
+          "total_buildings": 18,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 15",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 16",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "intrae_version": "INTRATOUCH 3.55"
+            }
+          ],
+          "contact": "Jason, +16202048058"
+        },
+        {
+          "name": "GUTHRIE PULLETS",
+          "type": "site",
+          "total_buildings": 7,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Jason, +16202048058"
+        },
+        {
+          "name": "OKEECHOBEE PULLET",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 84-22"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 84-22"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "WHARTON PULLET",
+          "type": "site",
+          "total_buildings": 3,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Corinne, +19794508023"
+        }
+      ]
+    },
+    {
+      "name": "OPAL FOODS",
+      "type": "customer",
+      "total_sites": 6,
+      "total_buildings": 50,
+      "children": [
+        {
+          "name": "HATHAWAY",
+          "type": "site",
+          "total_buildings": 12,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-025",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": "Paco, firstgenelectric@gmail.com, +14174400393"
+        },
+        {
+          "name": "HUDSON LAYER",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "HUDSON PULLET",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-084",
+              "intrae_version": "INTRAE 3.63"
+            }
+          ],
+          "contact": "Joy Timmons, jtimmons@opal-foods.com, +17202176389"
+        },
+        {
+          "name": "IOWA FALLS",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "LITCHFIELD",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2"
+            }
+          ],
+          "contact": "Kevin, +16413444183"
+        },
+        {
+          "name": "SCHOOL",
+          "type": "site",
+          "total_buildings": 13,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-358",
+              "intrae_version": "INTRAE 3.59"
+            }
+          ],
+          "contact": "Paco, firstgenelectric@gmail.com, +14174400393"
+        }
+      ]
+    },
+    {
+      "name": "DAYBREAK",
+      "type": "customer",
+      "total_sites": 7,
+      "total_buildings": 46,
+      "children": [
+        {
+          "name": "MAD RIVER",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "MAD RIVER",
+              "type": "building"
+            }
+          ],
+          "contact": "Megan, +19373033289"
+        },
+        {
+          "name": "MARTIN",
+          "type": "site",
+          "total_buildings": 18,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 15",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 16",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 17",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 25.125.2",
+              "intrae_version": "INTRAE 3.65"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "NEW DAY CREEKWOOD LAYERS",
+          "type": "site",
+          "total_buildings": 9,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building"
+            }
+          ],
+          "contact": "Jordan, +19377077224"
+        },
+        {
+          "name": "NEW DAY CREEKWOOD PULLETS",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "NEW DAY CREEKWOOD PULLETS",
+              "type": "building"
+            }
+          ],
+          "contact": "Jordan, +19377077224"
+        },
+        {
+          "name": "NEW DAY FARM 3",
+          "type": "site",
+          "total_buildings": 4,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRAV20D 019-23",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "NEW DAY PULLETS",
+          "type": "site",
+          "total_buildings": 4,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            }
+          ],
+          "contact": "Jordan, +19377077224"
+        },
+        {
+          "name": "SCHIPPER FARM",
+          "type": "site",
+          "total_buildings": 9,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 25-125.2",
+              "intrae_version": "INTRAE 3.65"
+            }
+          ],
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "name": "FORSMAN FARMS",
+      "type": "customer",
+      "total_sites": 4,
+      "total_buildings": 45,
+      "children": [
+        {
+          "name": "HOWARD LAKE",
+          "type": "site",
+          "total_buildings": 17,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 15",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRAV20 305-18",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "STOCKHOLM LAYERS",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "STOCKHOLM PULLETS",
+          "type": "site",
+          "total_buildings": 6,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRAV20 72-23",
+              "intrae_version": "INTRAE 3.55"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "VILLISCA",
+          "type": "site",
+          "total_buildings": 11,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building"
+            }
+          ],
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "name": "REMBRANDT",
+      "type": "customer",
+      "total_sites": 5,
+      "total_buildings": 37,
+      "children": [
+        {
+          "name": "FLOOR BIRDS",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "LAYERS",
+          "type": "site",
+          "total_buildings": 21,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 15",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 16",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 17",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 18",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 19",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 20",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 336-21"
+            }
+          ],
+          "contact": "Jane Baxter, jane_baxter@rembrandtinc.com, +17123463596"
+        },
+        {
+          "name": "LITTLE SIOUX",
+          "type": "site",
+          "total_buildings": 4,
+          "children": [
+            {
+              "name": "BARN 1",
+              "type": "building"
+            },
+            {
+              "name": "BARN 2",
+              "type": "building"
+            },
+            {
+              "name": "BARN 3",
+              "type": "building"
+            },
+            {
+              "name": "BARN 4",
+              "type": "building"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "PULLETS",
+          "type": "site",
+          "total_buildings": 5,
+          "children": [
+            {
+              "name": "REMP01",
+              "type": "building",
+              "integra_version": "INTEGRANV 312-21"
+            },
+            {
+              "name": "REMP02",
+              "type": "building",
+              "integra_version": "INTEGRANV 312-21"
+            },
+            {
+              "name": "REMP03",
+              "type": "building",
+              "integra_version": "INTEGRANV 312-21"
+            },
+            {
+              "name": "REMP04",
+              "type": "building",
+              "integra_version": "INTEGRANV 312-21"
+            },
+            {
+              "name": "REMP06",
+              "type": "building",
+              "integra_version": "INTEGRANV 312-21"
+            }
+          ],
+          "contact": "Jane Baxter, jane_baxter@rembrandtinc.com, +17123463596"
+        },
+        {
+          "name": "THOMPSON",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            }
+          ],
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "name": "WILLAMETTE",
+      "type": "customer",
+      "total_sites": 3,
+      "total_buildings": 24,
+      "children": [
+        {
+          "name": "CANBY",
+          "type": "site",
+          "total_buildings": 9,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRA 16-19",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "MOSES LAKE",
+          "type": "site",
+          "total_buildings": 8,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "SATRUM",
+          "type": "site",
+          "total_buildings": 7,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 119-21"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 119-21"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA 119-21"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA 119-21"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA 119-21"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRA 119-21"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRA 119-21"
+            }
+          ],
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "name": "GIROUX",
+      "type": "customer",
+      "total_sites": 2,
+      "total_buildings": 19,
+      "children": [
+        {
+          "name": "LAYERS",
+          "type": "site",
+          "total_buildings": 16,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 13",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 14",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            },
+            {
+              "name": "VIEWER",
+              "type": "building",
+              "integra_version": "INTEGRANV 24-238",
+              "intrae_version": "INTRAE 3.59"
+            }
+          ],
+          "contact": ""
+        },
+        {
+          "name": "PULLETS",
+          "type": "site",
+          "total_buildings": 3,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": ""
+        }
+      ]
+    },
+    {
+      "name": "CLR EGGS",
+      "type": "customer",
+      "total_sites": 1,
+      "total_buildings": 16,
+      "children": [
+        {
+          "name": "CLR",
+          "type": "site",
+          "total_buildings": 16,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 10",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 11",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 12",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 4",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 5",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 6",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 7",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 8",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 9",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "PROCESSING",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "PROCESSING WEST",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "VIEWER 1",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "VIEWER 2",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            }
+          ],
+          "contact": "Cody Keiser, +14198525029"
+        }
+      ]
+    },
+    {
+      "name": "NELSON",
+      "type": "customer",
+      "total_sites": 7,
+      "total_buildings": 14,
+      "children": [
+        {
+          "name": "DIAMOND HILL 1&2",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRAV20 24-238"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRAV20 24-238"
+            }
+          ],
+          "contact": "Greg Nelson, gbn@cox.net, +17857769401"
+        },
+        {
+          "name": "DIAMOND HILL 3",
+          "type": "site",
+          "total_buildings": 1,
+          "children": [
+            {
+              "name": "PULLETS",
+              "type": "building",
+              "integra_version": "INTEGRAV20 24-238",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Greg Nelson, gbn@cox.net, +17857769401"
+        },
+        {
+          "name": "LEATHER HILL",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "integra_version": "INTEGRA 24-025"
+            }
+          ],
+          "contact": "Greg Nelson, gbn@cox.net, +17857769401"
+        },
+        {
+          "name": "NOT BARRY 3&4",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            }
+          ],
+          "contact": "Greg Nelson, gbn@cox.net, +17857769401"
+        },
+        {
+          "name": "NOT BARRY 5&6",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building"
+            }
+          ],
+          "contact": "Greg Nelson, gbn@cox.net, +17857769401"
+        },
+        {
+          "name": "PRAIRIE VIEW",
+          "type": "site",
+          "total_buildings": 3,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            },
+            {
+              "name": "HOUSE 3",
+              "type": "building",
+              "intrae_version": "INTRAE 3.53"
+            }
+          ],
+          "contact": "Greg Nelson, gbn@cox.net, +17857769401"
+        },
+        {
+          "name": "RIVER ROOST",
+          "type": "site",
+          "total_buildings": 2,
+          "children": [
+            {
+              "name": "HOUSE 1",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            },
+            {
+              "name": "HOUSE 2",
+              "type": "building",
+              "intrae_version": "INTRAE 3.54"
+            }
+          ],
+          "contact": "Greg Nelson, gbn@cox.net, +17857769401"
+        }
+      ]
+    }
+  ]
+}
