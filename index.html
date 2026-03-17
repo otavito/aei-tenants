@@ -266,12 +266,18 @@
 </div>
 
 <script>
+  const PROD_REDIRECT_URI = "https://ashy-plant-004dd320f.6.azurestaticapps.net/";
+  const LOCAL_REDIRECT_URI = window.location.origin + window.location.pathname;
+  const redirectUri = window.location.hostname === "ashy-plant-004dd320f.6.azurestaticapps.net"
+    ? PROD_REDIRECT_URI
+    : LOCAL_REDIRECT_URI;
+
   const msalConfig = {
     auth: {
       clientId: "b1438db9-79e6-457a-99fd-66e7ae4fe160",
       authority: "https://login.microsoftonline.com/81dbb0d4-0d50-4aa5-a35c-04b98c73f3e0",
-      redirectUri: window.location.origin + window.location.pathname,
-      postLogoutRedirectUri: window.location.origin + window.location.pathname
+      redirectUri: redirectUri,
+      postLogoutRedirectUri: redirectUri
     },
     cache: {
       cacheLocation: "sessionStorage"
