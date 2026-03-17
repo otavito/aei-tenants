@@ -285,8 +285,14 @@
   };
 
   const loginRequest = {
-    scopes: ["User.Read"]
+    scopes: ["User.Read", "GroupMember.Read.All"]
   };
+
+  const tokenRequest = {
+    scopes: ["User.Read", "GroupMember.Read.All"]
+  };
+
+  const ALLOWED_GROUP_ID = "622b603c-f4df-41cd-88fb-ea857d6ddf79";
 
   const msalInstance = new msal.PublicClientApplication(msalConfig);
   const authGuard = document.getElementById("auth-guard");
@@ -332,11 +338,62 @@
     authError.textContent = message;
   }
 
+  function renderUnauthorizedState(account) {
+    authGuard.style.display = "flex";
+    appShell.style.display = "none";
+    authUsername.textContent = "";
+    authError.textContent = "Sua conta Microsoft foi autenticada, mas voce nao tem permissao para acessar este dashboard.";
+
+    if (account) {
+      msalInstance.setActiveAccount(account);
+    }
+  }
+
   function renderAuthenticatedState(account) {
     authGuard.style.display = "none";
     appShell.style.display = "flex";
     authError.textContent = "";
     authUsername.textContent = account.name || account.username || "Usuario autenticado";
+  }
+
+  async function getToken(account) {
+    try {
+      const response = await msalInstance.acquireTokenSilent({
+        ...tokenRequest,
+        account
+      });
+
+      return response.accessToken;
+    } catch (error) {
+      if (error instanceof msal.InteractionRequiredAuthError) {
+        await msalInstance.acquireTokenRedirect({
+          ...tokenRequest,
+          account
+        });
+        throw new Error("Redirecting to acquire token");
+      }
+
+      throw error;
+    }
+  }
+
+  async function isUserAuthorized(account) {
+    const token = await getToken(account);
+    const response = await fetch("https://graph.microsoft.com/v1.0/me/memberOf", {
+      method: "GET",
+      headers: {
+        Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json"
+      }
+    });
+
+    if (!response.ok) {
+      throw new Error(`Graph API error: ${response.status} ${response.statusText}`);
+    }
+
+    const data = await response.json();
+    const groups = (data.value || []).map((item) => item.id);
+    return groups.includes(ALLOWED_GROUP_ID);
   }
 
   async function bootstrapAuth() {
@@ -354,6 +411,13 @@
       }
 
       msalInstance.setActiveAccount(account);
+
+      const isAuthorized = await isUserAuthorized(account);
+      if (!isAuthorized) {
+        renderUnauthorizedState(account);
+        return;
+      }
+
       renderAuthenticatedState(account);
 
       if (!dashboardInitialized) {
